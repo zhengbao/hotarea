@@ -1,6 +1,6 @@
 'use strict';
 
-var exec = require('child_process').exec;
+// var exec = require('child_process').exec;
 
 var inputHolder = document.getElementById('imageurl');
 
@@ -18,6 +18,8 @@ inputHolder.ondrop = (e) => {
     imgPath = file.path;
     console.log(file.path);
 }
+
+
 
 var textItems = '';
 
@@ -63,6 +65,9 @@ previewBtn.click(function() {
 
     $('#setting-wrap').hide();
     $('#preview-wrap').show();
+
+imgPath = $('#main').attr('src');
+    
 
     $('#created-code').html('<div class="left-side">' + $('#areaText').val().replace('url/to/your/image.jpg', imgPath).replace('\[\.\.\.\]', '').replace('id="Map"', 'id="' + customMapName.val() + '"') + '</div><div class="right-bg">' + rightText.val() + '</div>');
 

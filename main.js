@@ -12,7 +12,7 @@ function createWindow() {
     mainWindow = new BrowserWindow({ width: 1200, height: 768 })
 
     // and load the index.html of the app.
-    mainWindow.loadURL(`file://${__dirname}/index-img-hotarea.html`)
+    mainWindow.loadURL(`file://${__dirname}/index.html`)
 
     // mainWindow.webContents.openDevTools()
 
