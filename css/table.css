@@ -1,0 +1,368 @@
+.tc-15-table-panel {
+    background-color: #fff;
+    margin: 0 20px;
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+
+.tc-15-table-panel a {
+    vertical-align: middle;
+    color: #2277da;
+    text-decoration: none
+}
+
+.tc-15-table-panel a:hover {
+    text-decoration: underline
+}
+
+.tc-15-table-panel .black-seperate-line-icon {
+    border-right: 1px solid #ccc;
+    display: inline-block;
+    height: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle
+}
+
+.tc-15-table-panel .text-center {
+    text-align: center !important
+}
+
+.tc-15-table-panel .text-left {
+    text-align: left !important
+}
+
+.tc-15-table-panel .text-right {
+    text-align: right !important
+}
+
+.tc-15-table-panel .tc-15-table-box .text {
+    vertical-align: middle
+}
+
+.tc-15-table-panel p.text-overflow,
+.tc-15-table-panel span.text-overflow {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+.tc-15-table-panel p.text-overflow {
+    display: block;
+    margin-bottom: 0
+}
+
+.tc-15-table-panel th span.text-overflow {
+    vertical-align: baseline
+}
+
+.tc-15-table-fixed-body .text-overflow.m-width,
+.tc-15-table-fixed-body i~.text-overflow {
+    max-width: 78%
+}
+
+.tc-15-table-panel .text-overflow.restart {
+    color: #a2a2a2
+}
+
+.tc-15-table-panel .text-overflow.succeed {
+    color: #06c290
+}
+
+.tc-15-table-panel .text-overflow.error {
+    color: #e1504a
+}
+
+.tc-15-table-panel .text-overflow.warning {
+    color: #ed711f
+}
+
+.tc-15-table-panel .tc-15-table-box .gray-text {
+    color: #73777b
+}
+
+.tc-15-table-panel .tc-15-table-box {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+    position: relative
+}
+
+.tc-15-table-panel thead {
+    color: #454951;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 0;
+    width: 100%;
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #d1d5de;
+    border-top: 1px solid #d1d5de
+}
+
+.tc-15-table-fixed-head {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #d1d5de;
+    border-top: 1px solid #d1d5de
+}
+
+.tc-15-table-fixed-head thead {
+    background-color: transparent;
+    border: 0
+}
+
+.tc-15-table-panel thead tr {
+    background-color: #f6f8fa
+}
+
+.tc-15-table-panel thead .tc-15-th-sort-btn {
+    color: #454951;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding-right: 10px
+}
+
+.tc-15-table-panel thead .tc-15-th-sort-btn span {
+    max-width: 88%;
+    margin-right: 5px
+}
+
+.tc-15-table-panel thead .tc-15-th-sort-btn:hover {
+    color: #2277da
+}
+
+.tc-15-table-panel thead .tc-15-th-sort-btn:hover .sort-icon {
+    background-image: url(sprite/table-1478574641.png);
+    background-position: 0px -18px
+}
+
+.tc-15-table-panel thead .tc-15-th-sort-btn i.down-sort-icon,
+.tc-15-table-panel thead .tc-15-th-sort-btn i.up-sort-icon {
+    display: none
+}
+
+.tc-15-table-panel thead .tc-15-th-sort-btn i.filtrate-icon,
+.tc-15-table-panel thead .tc-15-th-sort-btn i.sort-icon,
+.tc-15-table-panel thead .tc-15-th-sort-btn.current i.down-sort-icon,
+.tc-15-table-panel thead .tc-15-th-sort-btn.current i.up-sort-icon {
+    display: inline-block;
+    position: absolute;
+    top: 10px
+}
+
+.tc-15-table-panel thead .resize-line-icon {
+    border-right: 1px solid #d1d5de;
+    position: absolute;
+    right: 0;
+    height: 20px;
+    top: 5px;
+    cursor: e-resize;
+    padding: 0 5px
+}
+
+.tc-15-table-panel .tc-15-table-fixed-body {
+    overflow-y: auto;
+    border-bottom: 1px solid #D1D5DE
+}
+
+.tc-15-table-panel .tc-15-table-box tr {
+    outline: 0
+}
+
+.tc-15-table-panel .tc-15-table-box td>div,
+.tc-15-table-panel .tc-15-table-box th>div {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.tc-15-table-panel .tc-15-table-box th>div {
+    height: 30px;
+    position: relative;
+    color: #454a51
+}
+
+.tc-15-table-panel .tc-table .tc-icon-bubble {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.tc-15-table-panel .tc-15-table-box td,
+.tc-15-table-panel .tc-15-table-box th {
+    text-align: left;
+    vertical-align: middle;
+    padding: 0;
+    font-size: 0
+}
+
+.tc-15-table-panel .tc-15-table-box th {
+    position: relative
+}
+
+.tc-15-table-panel .tc-15-table-box td {
+    border-bottom: 1px solid #e6ebf2;
+    color: #454a51;
+    font-size: 0;
+    line-height: 19px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: left;
+    vertical-align: middle;
+    height: 42px
+}
+
+.tc-15-table-rowhover tbody .tr-hover,
+.tc-15-table-rowhover tbody tr:hover {
+    background-color: #EAF3FD
+}
+
+.tc-15-table-rowhover tbody tr .hover-icon {
+    display: none
+}
+
+.tc-15-table-rowhover tbody tr:hover .hover-icon {
+    display: inline-block
+}
+
+.tc-15-table-rowhover tbody tr.new-row {
+    background-color: #FFF8E4
+}
+
+.tc-15-table-rowhover tbody tr.new-row .new-mark-icon {
+    margin-left: 3px
+}
+
+.tc-15-table-rowhover tbody tr.current,
+.tc-15-table-rowhover tbody tr.selected,
+.tc-15-table-rowhover tbody tr:focus {
+    background-color: #DAE9FB
+}
+
+.tc-15-table-rowhover tbody tr.disable {
+    background-color: #fff
+}
+
+.tc-15-table-rowhover tbody tr td a.disable,
+.tc-15-table-rowhover tbody tr.disable td,
+.tc-15-table-rowhover tbody tr.disable td a {
+    color: #a2a2a2;
+    cursor: default;
+    text-decoration: none
+}
+
+.tc-15-table-rowhover tbody tr.disable .tc-15-dropdown-link .caret {
+    background-image: url(sprite/table-1478574641.png);
+    background-position: 0px 0px
+}
+
+.tc-15-table-panel td.tc-15-news-tips-box {
+    background-color: #fffcee;
+    line-height: 20px;
+    height: 20px;
+    text-align: center
+}
+
+.tc-15-table-panel td.tc-15-news-tips-box a {
+    vertical-align: baseline
+}
+
+.tc-15-table-panel .tc-15-filtrate-btn {
+    cursor: pointer;
+    position: relative;
+    padding-right: 10px;
+    display: block
+}
+
+.tc-15-table-panel .tc-15-filtrate-btn .filtrate-icon {
+    position: absolute;
+    top: 10px
+}
+
+.tc-15-table-panel .tc-15-filtrate-btn span {
+    max-width: 76%;
+    margin-right: 5px
+}
+
+.tc-15-table-panel .tc-15-filtrate-btn.current,
+.tc-15-table-panel .tc-15-filtrate-btn:hover {
+    color: #2277da
+}
+
+.tc-15-table-panel .tc-15-filtrate-btn.current .filtrate-icon,
+.tc-15-table-panel .tc-15-filtrate-btn:hover .filtrate-icon {
+    background-image: url(sprite/table-1478574641.png);
+    background-position: -18px 0px
+}
+
+th.text-right .tc-15-filtrateu {
+    right: 10px
+}
+
+.tc-15-table-panel {
+    position: relative
+}
+
+.tc-15-table-panel .fixed-column {
+    position: absolute;
+    background: #fff;
+    z-index: 3
+}
+
+.fixed-column-shadow:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -3px;
+    left: 0\9;
+    height: 100%;
+    width: 3px;
+    background-image: linear-gradient(to left, rgba(100, 100, 100, .2), rgba(255, 255, 255, 0));
+    border-left: #eee 1px solid\9
+}
+
+.tc-15-table-box .full-cols-hint td {
+    text-align: center
+}
+
+.tc-15-table-box .full-cols-hint td a {
+    vertical-align: baseline
+}
+
+.tc-table-grid .tc-15-dropdown,
+.tc-table-grid .tc-15-table-box td>div,
+.tc-table-grid .tc-15-table-box th>div {
+    font-size: 12px
+}
+
+.tc-15-table-panel td>div>a {
+    margin-right: 10px
+}
+
+.tc-15-table-panel td>div>a:last-child {
+    margin-right: 0
+}
+
+.tc-15-table-panel td>div>.black-seperate-line-icon {
+    display: none
+}
+
+@media all and (-ms-high-contrast:none) {
+    .fixed-column::after {
+        border-left: none;
+        width: 3px;
+        left: -3px
+    }
+}
+
+#MAXIM {
+    content: "bag20161108111909"
+}

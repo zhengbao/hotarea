@@ -1,0 +1,397 @@
+@charset "utf-8";
+
+/*图标*/
+.n-loading-icon,
+.records-icon,
+.n-restart-icon,
+.m-restart-icon,
+.n-shutdown-icon,
+.n-running-icon,
+.n-deploy-icon,
+.n-error-icon,
+.m-error-icon,
+.b-error-icon,
+.n-close-icon,
+.m-close-icon,
+.b-close-icon,
+.n-success-icon,
+.m-success-icon,
+.b-success-icon,
+.sales-icon,
+.down-icon,
+.up-icon,
+.white-down-icon,
+.blue-down-icon,
+.white-up-icon,
+.blue-up-icon,
+.client-icon,
+.sort-arrow-icon,
+.plaint-icon,
+.links-icon,
+.links-icon,
+.external-link-icon,
+.btn-back-icon,
+.links-icon,
+.blue-add-icon,
+.client-icon,
+.pencil-icon,
+.copy-icon,
+.edit-icon,
+.remind-icon,
+.rubbish-icon,
+.down-sort-icon,
+.up-sort-icon,
+.phone-icon,
+.wechat-icon,
+.note-icon,
+.logs-btn-close,
+.notice-btn-close,
+.qq-icon,
+.favorable-icon,
+.th-large-icon,
+.th-blue-large-icon,
+.th-list-icon,
+.th-blue-list-icon,
+.icon-add,
+.icon-alarm,
+.dosage-icon,
+.blue-left-icon,
+.blue-right-icon,
+.download-icon,
+.sort-icon,
+.sort-hover-icon,
+.filtrate-icon,
+.filtrate-hover-icon,
+.try-icon,
+.convert-ip-icon,
+.convert-ip-ash-icon,
+.new-mark-icon,
+.icon-info-red,
+.icon-question{
+    width:16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+}
+.records-icon{
+    width:15px;
+    height: 16px;
+    background-image: url(img/slice/records-icon.png);    
+}
+.m-error-icon{
+    width:24px;
+    height: 24px;
+    background-image: url(img/slice/m-error-icon.png);
+}
+.b-error-icon{
+    width:74px;
+    height: 74px;
+    background-image: url(img/slice/b-error-icon.png);
+}
+.sales-icon{
+    width:16px;
+    height: 16px;
+    background-image: url(img/slice/sales-icon.png);
+}
+
+.n-restart-icon{
+    background-image: url(img/slice/restart-icon.png);
+}
+.m-restart-icon{
+    width:24px;
+    height: 24px;
+    background-image: url(img/slice/m-restart-icon.png); 
+}
+
+.n-success-icon{
+    background-image: url(img/slice/success-icon.png); 
+}
+.m-success-icon{
+    width:22px;
+    height: 24px;
+    background-image: url(img/slice/m-success-icon.png); 
+}
+.b-success-icon{
+    width:74px;
+    height: 74px;
+    background-image: url(img/slice/b-success-icon.png); 
+}
+
+.n-close-icon{
+    width:16px;
+    background-image: url(img/slice/close-icon.png);
+}
+.m-close-icon{
+    width:24px;
+    height: 24px;
+    background-image: url(img/slice/m-close-icon.png);
+}
+.b-close-icon{
+    width:74px;
+    height: 74px;
+    background-image: url(img/slice/b-close-icon.png);
+}
+
+.n-loading-icon{
+    height: 18px;
+    background: url(img/loading-icon.gif);
+}
+.n-shutdown-icon{
+    background-image: url(img/slice/shutdown-icon.png);    
+}
+.n-running-icon{
+    background-image: url(img/slice/running-icon.png);    
+}
+.n-shutdown-icon{
+    background-image: url(img/slice/shutdown-icon.png);    
+}
+.n-error-icon{
+    width:16px;
+    background-image: url(img/slice/error-icon.png);
+}
+.n-deploy-icon{
+    background-image: url(img/slice/deploy-icon.png);    
+}
+.sort-arrow-icon{
+    width: 9px;
+    height: 12px;
+    background-image: url(img/slice/sort-arrow-icon.png);
+}
+.sort-arrow-icon.up{
+    background-image: url(img/slice/sort-arrow-icon-up.png);
+}
+.plaint-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url(img/slice/svg/plaint-icon.svg);
+}
+.links-icon {
+    width: 14px;
+    height: 13px;
+    background-image: url(img/slice/links-icon.png);
+}
+.external-link-icon {
+     width: 8px;
+     height: 8px;
+     background-image: url(img/slice/external-link-icon.png);
+ }
+.btn-back-icon{
+    width:8px;
+    height: 14px;
+    background-image: url(img/slice/back-icon.png);
+}
+.client-icon{
+    width:16px;
+    height: 15px;
+    background-image: url(img/slice/client-icon.png);
+    margin-top: 2px;
+}
+.down-icon {
+    width: 13px;
+    height: 7px;
+    background-image: url(img/slice/down-icon.png); 
+}
+.white-down-icon{
+    width:11px;
+    height: 6px;
+    background-image: url(img/slice/white-down-icon.png);
+}
+.blue-down-icon{
+    width:11px;
+    height: 6px;
+    background-image: url(img/slice/blue-down-icon.png);
+}
+
+.up-icon {
+    width: 13px;
+    height: 7px;
+    background-image: url(img/slice/up-icon.png); 
+}
+.white-up-icon{
+    width:11px;
+    height: 6px;
+    background-image: url(img/slice/white-up-icon.png);
+}
+
+.blue-up-icon{
+    width:11px;
+    height: 6px;
+    background-image: url(img/slice/blue-up-icon.png);
+}
+
+.blue-add-icon{
+    width:15px;
+    height: 15px;
+    background-image: url(img/slice/blue-add-icon.png);
+}
+.pencil-icon{
+    width:16px;
+    height: 16px;
+    background-image: url(img/slice/svg/pencil-icon.svg);
+}
+.copy-icon{
+    width:16px;
+    height: 16px;
+    background-image: url(img/slice/svg/copy-icon.svg);
+}
+.remind-icon{
+    width:14px;
+    height: 15px;
+    background-image: url(img/slice/remind-icon.png);
+}
+.rubbish-icon{
+    width:16px;
+    height: 16px;
+    background-image: url(img/slice/svg/rubbish-icon.svg);
+}
+.down-sort-icon{
+    width:8px;
+    height: 11px;
+    background-image: url(img/slice/down-sort-icon.png);
+}
+
+.up-sort-icon{
+    width:8px;
+    height: 11px;
+    background-image: url(img/slice/up-sort-icon.png);
+}
+.phone-icon{
+    width:10px;
+    height: 18px;
+    background-image: url(img/slice/phone-icon.png);
+}
+.wechat-icon{
+    width:16px;
+    height: 15px;
+    background-image: url(img/slice/wechat-icon.png);
+}
+.note-icon{
+    width:17px;
+    height: 13px;
+    background-image: url(img/slice/note-icon.png);
+}
+.logs-btn-close{
+	height: 9px;
+    width: 9px;
+	background-image: url(img/slice/logs-tip.png);
+}
+.notice-btn-close{
+	height: 16px;
+    width: 16px;
+	background-image: url(img/slice/notice-btn-close.png);
+}
+
+.qq-icon{
+    width:16px;
+    height: 17px;
+    background-image: url(img/slice/qq-icon.png);
+}
+.favorable-icon{
+    width:15px;
+    height: 18px;
+    background-image: url(img/slice/favorable-icon.png);
+}
+.th-large-icon{
+    width:13px;
+    height: 13px;
+    background-image: url(img/slice/th-large-icon.png);
+}
+.th-blue-large-icon{
+    width:16px;
+    height: 16px;
+    background-image: url(img/slice/svg/th-blue-large-icon.svg);
+}
+.th-list-icon{
+    width:13px;
+    height: 11px;
+    background-image: url(img/slice/th-list-icon.png);
+}
+.th-blue-list-icon{
+    width:16px;
+    height: 16px;
+    background-image: url(img/slice/svg/th-blue-list-icon.svg);
+}
+.icon-add{
+    width:11px;
+    height:11px;
+    background-image:url(img/slice/icon-add.png);
+}
+.icon-alarm{
+    width:15px;
+    height:14px;
+    background-image:url(img/slice/icon-alarm.png); 
+}
+.dosage-icon{
+    width:16px;
+    height:16px;
+    background-image:url(img/slice/svg/dosage-icon.svg);
+}
+.blue-left-icon{
+    width:7px;
+    height: 11px;
+    background-image: url(img/slice/blue-left-icon.png);
+}
+.blue-right-icon{
+    width:7px;
+    height: 11px;
+    background-image: url(img/slice/blue-right-icon.png);
+}
+.download-icon{
+    width:13px;
+    height: 15px;
+    background-image: url(img/slice/download-icon.png);
+}
+
+.sort-icon{
+    width:8px;
+    height:12px;
+    background-image: url(img/slice/sort-icon.png);
+}
+.sort-hover-icon{
+    width:8px;
+    height:12px;
+    background-image: url(img/slice/sort-hover-icon.png);
+}
+.filtrate-icon{
+    width:13px;
+    height:12px;
+    background-image: url(img/slice/filtrate-icon.png);
+}
+.filtrate-hover-icon{
+    width:13px;
+    height:12px;
+    background-image: url(img/slice/filtrate-hover-icon.png);
+}
+.try-icon{
+    width:19px;
+    height:19px;
+    background-image: url(img/slice/try-icon.png);
+}
+.convert-ip-icon{
+    width: 16px;
+    height: 16px;
+    background-image: url(img/slice/svg/convert-ip-icon.svg);
+}
+.convert-ip-ash-icon{
+    cursor: default;
+    width: 16px;
+    height: 16px;
+    background-image: url(img/slice/svg/convert-ip-ash-icon.svg);
+}
+.new-mark-icon{
+    width:16px;
+    height:15px;
+    cursor:default;
+    background-image:url(img/slice/new-mark-icon.png);
+}
+.icon-info-red{
+    width:16px;
+    height:16px;
+    background-image:url(img/slice/icon-info-red.png);
+}
+.icon-question{
+    width:16px;
+    height:16px;
+    background-image:url(img/slice/question-icon.png);
+}

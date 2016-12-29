@@ -1,0 +1,272 @@
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'helvetica neue', 'hiragino sans gb', tahoma, 'microsoft yahei ui', 'microsoft yahei', simsun, sans-serif;
+}
+
+body,
+button,
+dd,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+select,
+table,
+textarea,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    padding: 20px;
+}
+
+#holder {
+    width: 480px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: #F2F3C4;
+    line-height: 180px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+pre {
+    line-height: 14px;
+}
+
+pre em {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.show-name,
+.cleancss,
+.compare,
+.console-area-wrap {
+    margin-bottom: 20px;
+}
+
+.area-title {
+    display: inline-block;
+    width: 180px;
+}
+
+.main-table .tc-15-table-panel {
+    margin: 20px 0;
+}
+
+.console-area-wrap {
+    margin-bottom: 40px;
+}
+
+.console-area {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.mask,
+.donate,
+.contact {
+    display: none;
+}
+
+.mask {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: rgb(0, 0, 0);
+}
+
+.donate,
+.contact {
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -240px;
+    margin-top: -100px;
+}
+
+.contact .tc-15-rich-dialog-bd p {
+    line-height: 30px;
+}
+
+.contact .tc-15-rich-dialog-hd .tc-15-btn-close {
+    outline: none;
+}
+
+.contact .tc-15-rich-dialog-bd p span {
+    width: 90px;
+    display: inline-block;
+}
+
+.donate-bd {
+    text-align: center;
+}
+
+.bypass {
+    cursor: pointer;
+}
+
+
+/*热点区 html样式*/
+
+.tc-15-step {
+    text-align: center;
+}
+
+.tab-list li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1px;
+}
+
+.tab-list .tab-item {
+    display: inline-block;
+    height: 55px;
+    line-height: 55px;
+    width: 170px;
+    text-align: center;
+    background: #fff;
+    font-size: 18px;
+    color: #404a58;
+    transition: .2s ease background;
+}
+
+.tab-list .current .tab-item {
+    background: #2277da;
+    color: #fff;
+}
+
+.tab-list .current .tab-item {
+    position: relative;
+}
+
+.tab-list .current .tab-item:after {
+    content: '';
+    border: 8px solid transparent;
+    border-top-color: #2277da;
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    margin-left: -8px;
+}
+
+ul.tab-list li {
+    background: inherit;
+    margin: 0;
+    padding-left: 0;
+}
+
+.operation-aside {
+    float: left;
+}
+
+.save-tips {
+    font-style: ;
+    14px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+#holder {
+    position: absolute;
+    background-color: red;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 340px;
+    height: 100px;
+}
+
+#add-right-item {
+    float: left;
+}
+
+#right-text-list li {
+    list-style-type: none;
+    background: #edf7ff;
+}
+
+#right-text-list textarea {
+    padding: 10px;
+}
+
+#preview-wrap {
+    display: none;
+}
+
+.right-side.vertical-list {
+    font-size: 14px;
+}
+
+#created-code {
+    /*display: inline-block;*/
+    font-style: 0;
+    position: relative;
+    z-index: 15;
+}
+
+.left-side {
+    float: left;
+}
+
+.right-bg {
+    float: right;
+}
+
+div#clearStyleButtons {
+    width: 624px;
+}
+
+#clearStyleButtons .clearButton {
+    width: 150px;
+}
+
+div#clearStyleButtons div.clearCurrentButton {
+    width: 160px;
+}
+
+#custom-map-name {
+    width: 150px !important;
+    min-width: inherit;
+    margin: 20px 0;
+}
+
+#svg-area svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+svg polygon,
+svg rect {
+    cursor: pointer;
+    opacity: 0;
+}
+svg polygon:hover,
+svg rect:hover {
+    opacity: 1;
+}

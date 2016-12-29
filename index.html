@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>electron demo</title>
+    <link rel='stylesheet' href='./css/index.css'>
+    <link rel='stylesheet' href='./css/table.css'>
+    <link rel='stylesheet' href='./css/icon.css'>
+    <style type="text/css"></style>
+</head>
+
+<body id="main-body">
+    <div class="file-object-wrap">
+        <div id="holder">
+            <pre>
+
+
+
+
+
+
+拖拽文件到此处
+
+            </pre>
+        </div>
+        <div class="show-name">
+            <span class="area-title">
+            文件路径:
+            </span>
+            <a href="javascript:void(0);" class="directory-path"></a>
+        </div>
+        <div class="console-area-wrap">
+            <span class="area-title">
+            console信息:
+            </span>
+            <span class="console-area"></span>
+        </div>
+        <div class="mask"></div>
+        <div class="contact">
+            <div class="tc-15-rich-dialog m" role="alertdialog">
+                <div class="tc-15-rich-dialog-hd"><strong>联系作者</strong>
+                    <button title="关闭" href="" class="tc-15-btn-close">关闭</button>
+                </div>
+                <div class="tc-15-rich-dialog-bd">
+                    <p><span>Bug反馈:</span> <a bypass="http://km.oa.com/group/c2xd2/articles/show/268119" class="bypass">http://km.oa.com/group/c2xd2/articles/show/268119</a>
+                    </p>
+                    <p><span>Email:</span><a href="mailto:baozeng@tencent.com" target="_blank">baozeng@tencent.com</a></p>
+                    <p><span>QQ/Wechat: </span>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=523312588&site=qq&menu=yes">
+                523312588 </a></p>
+                    <p><span>RTX: </span>baozeng </p>
+                </div>
+                <!--  <div class="tc-15-rich-dialog-ft">
+            <div class="tc-15-rich-dialog-ft-btn-wrap">
+                <button class="tc-15-btn">确定</button>
+                <button class="tc-15-btn weak">取消</button>
+            </div>
+        </div> -->
+            </div>
+        </div>
+        <div class="donate">
+            <div class="tc-15-rich-dialog m" role="alertdialog">
+                <div class="tc-15-rich-dialog-hd"><strong>捐赠</strong>
+                    <button title="关闭" href="" class="tc-15-btn-close">关闭</button>
+                </div>
+                <div class="tc-15-rich-dialog-bd">
+                    <p class="donate-bd">
+                        <img src="./css/img/donate.png">
+                    </p>
+                </div>
+                <!--  <div class="tc-15-rich-dialog-ft">
+            <div class="tc-15-rich-dialog-ft-btn-wrap">
+                <button class="tc-15-btn">确定</button>
+                <button class="tc-15-btn weak">取消</button>
+            </div>
+        </div> -->
+            </div>
+        </div>
+
+
+        <script>
+            require('./js/lib/jq.js')
+            require('./js/util/main-process-api.js')
+            require('./js/util/main-process-api-helper.js')
+            require('./js/entry.js')
+            var ls = window.localStorage;
+        </script>
+    </body>
+</html>

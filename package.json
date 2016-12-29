@@ -1,0 +1,43 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-packager . zbApp --platform=win32 --arch=x64 --version=0.0.1",
+    "package": "asar pack MyFirstApp-win32-x64/resources/app MyFirstApp-win32-x64/resources/app.asar && rm -rf MyFirstApp-win32-x64/resources/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "sprite",
+    "ac"
+  ],
+  "author": "zbbb",
+  "email": "baozeng@tencent.com",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "clean-css": "^3.4.20",
+    "electron-json-storage": "^2.0.0",
+    "electron-prebuilt": "^1.1.1",
+    "gulp": "^3.9.1",
+    "load-script": "^1.0.0",
+    "pngjs": "^3.0.0"
+  },
+  "dependencies": {
+    "electron-json-storage": "^2.0.0",
+    "electron-require": "^0.3.0",
+    "fs-extra": "^0.30.0",
+    "load-script": "^1.0.0",
+    "gulp": "^3.9.1",
+    "pngjs": "^3.0.0"
+  }
+}
