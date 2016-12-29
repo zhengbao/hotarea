@@ -106,9 +106,40 @@ previewBtn.click(function() {
 
     };
 
-     $(g).html(gHtml);
+    $(g).html(gHtml);
 
     $('#svg-area svg').append($(g));
 
 
+    bindAreaFunction();
+
 })
+
+
+function bindAreaFunction(){
+    $('#svg-area svg g').children().click(function(){
+        console.log( $(this).index());
+
+
+        // $('#svg-area svg g').children().css('opacity', 0);
+
+        // $(this).css('opacity', 1).css('fill', 'rgba(255,184,0,.4)');
+        $('#svg-area svg g').children().attr('class', '');
+        $(this).attr('class', 'selected');
+
+        $('.right-bg .vertical-list').hide();
+        $('.right-bg .vertical-list').eq($(this).index() + 1).show();
+    });
+
+
+    $('.left-side').click(function(e){
+
+        if (e.target.nodeName === 'rect' || e.target.nodeName === 'polygon' ) {
+            return
+        }
+
+        $('#svg-area svg g').children().attr('class', '');
+        $('.right-bg .vertical-list').hide();
+        $('.right-bg .vertical-list').eq(0).show();
+    })
+}

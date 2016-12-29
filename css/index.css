@@ -233,7 +233,8 @@ ul.tab-list li {
 }
 
 .right-bg {
-    float: right;
+    /*float: right;*/
+    display: inline-block;
 }
 
 div#clearStyleButtons {
@@ -269,4 +270,9 @@ svg rect {
 svg polygon:hover,
 svg rect:hover {
     opacity: 1;
+}
+svg polygon.selected,
+svg rect.selected {
+    opacity: 1;
+    fill: rgba(255,184,0,.4) !important;
 }
